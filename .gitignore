@@ -1,0 +1,9 @@
+# Ignore these folders
+.vscode/
+__pycache__/
+
+# Ignore these files
+*.log
+*.pyc
+*.gz
+

@@ -1,0 +1,47 @@
+features	category	ENCODE-E2G_Extended	ENCODE-E2G_Extended without gradients	ENCODE-E2G_Extended without distance	ENCODE-E2G_Extended without EP300	ENCODE-E2G_Extended without correlations	ENCODE-E2G_Extended without CTCF	ENCODE-E2G_Extended without Hi-C	ENCODE-E2G_Extended without Hi-C and distance	ENCODE-E2G_Extended without contact	ENCODE-E2G_Extended without distance and contact	ENCODE-E2G_Extended without ABC	ENCODE-E2G_Extended without nearby enhancers	ENCODE-E2G_Extended without enhancer activity	ENCODE-E2G_Extended without promoter activity	ENCODE-E2G_Extended without promoter class	ENCODE-E2G_Extended without conservation
+EpiMapScore	correlation	1	1	0	1	0	1	1	0	1	0	1	1	0	0	1	1
+glsCoefficient	correlation	1	1	1	1	0	1	1	1	1	1	1	1	0	0	1	1
+numTSSEnhGene	generic	1	1	0	1	1	1	1	0	1	0	1	1	1	1	1	1
+distanceToTSS	generic	1	1	0	1	1	1	1	0	1	0	1	1	1	1	1	1
+normalizedDNase_enh	enhancer activity	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1
+normalizedDNase_prom	promoter activity	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1
+normalizedH3K27ac_enh	enhancer activity	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1
+normalizedH3K27ac_prom	promoter activity	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1
+activity_enh	enhancer activity	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1
+3DContact	Hi-C	1	1	1	1	1	1	0	0	0	0	1	1	1	1	1	1
+activity_enh_squared	enhancer activity	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1
+3DContact_squared	Hi-C	1	1	1	1	1	1	0	0	0	0	1	1	1	1	1	1
+activity_prom	promoter activity	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1
+ABCNumerator	ABC	1	1	1	1	1	1	0	0	0	0	0	1	0	1	1	1
+ABCScore	ABC	1	1	1	1	1	1	0	0	0	0	0	1	0	1	1	1
+ABCDenominator	ABC	1	1	1	1	1	1	0	0	0	0	0	1	0	0	1	1
+numNearbyEnhancers	generic	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1
+sumNearbyEnhancers	generic	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1
+PEToutsideNormalized	CTCF	1	1	1	1	1	0	1	1	0	0	1	1	1	1	1	1
+PETcrossNormalized	CTCF	1	1	1	1	1	0	1	1	0	0	1	1	1	1	1	1
+promCTCF	CTCF	1	1	1	1	1	0	1	1	1	1	1	1	1	0	1	1
+enhCTCF	CTCF	1	1	1	1	1	0	1	1	1	1	1	1	0	1	1	1
+H3K4me3_e_max_L_8	enhancer activity	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1
+H3K4me3_e_grad_max_L_8	gradients	1	0	1	1	1	1	0	0	0	0	1	1	0	0	1	1
+H3K27ac_e_grad_max_L_8	gradients	1	0	1	1	1	1	0	0	0	0	1	1	0	0	1	1
+DNase_e_grad_max_L_8	gradients	1	0	1	1	1	1	0	0	0	0	1	1	0	0	1	1
+H3K4me3_e_grad_min_L_8	gradients	1	0	1	1	1	1	0	0	0	0	1	1	0	0	1	1
+H3K27ac_e_grad_min_L_8	gradients	1	0	1	1	1	1	0	0	0	0	1	1	0	0	1	1
+DNase_e_grad_min_L_8	gradients	1	0	1	1	1	1	0	0	0	0	1	1	0	0	1	1
+H3K4me3_p_max_L_8	promoter activity	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1
+H3K4me3_p_grad_max_L_8	gradients	1	0	1	1	1	1	0	0	0	0	1	1	0	0	1	1
+H3K27ac_p_grad_max_L_8	gradients	1	0	1	1	1	1	0	0	0	0	1	1	0	0	1	1
+DNase_p_grad_max_L_8	gradients	1	0	1	1	1	1	0	0	0	0	1	1	0	0	1	1
+H3K4me3_p_grad_min_L_8	gradients	1	0	1	1	1	1	0	0	0	0	1	1	0	0	1	1
+H3K27ac_p_grad_min_L_8	gradients	1	0	1	1	1	1	0	0	0	0	1	1	0	0	1	1
+DNase_p_grad_min_L_8	gradients	1	0	1	1	1	1	0	0	0	0	1	1	0	0	1	1
+averageCorrWeighted	correlation	1	1	1	1	0	1	1	1	1	1	1	1	1	0	0	1
+phastConMax	conservation	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0
+phyloPMax	conservation	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0
+P2PromoterClass	promoter class	1	1	1	1	1	1	1	1	1	1	1	1	1	0	0	1
+ubiquitousExpressedGene	promoter class	1	1	1	1	1	1	1	1	1	1	1	1	1	0	0	1
+HiCLoopOutsideNormalized	Hi-C	1	1	1	1	1	1	0	0	0	0	1	1	1	1	1	1
+HiCLoopCrossNormalized	Hi-C	1	1	1	1	1	1	0	0	0	0	1	1	1	1	1	1
+inTAD	Hi-C	1	1	1	1	1	1	0	0	0	0	1	1	1	1	1	1
+inCCD	CTCF	1	1	1	1	1	0	1	1	0	0	1	1	1	1	1	1
+normalizedEP300_enhActivity	enhancer activity	1	1	1	0	1	1	1	1	1	1	1	1	0	1	1	1

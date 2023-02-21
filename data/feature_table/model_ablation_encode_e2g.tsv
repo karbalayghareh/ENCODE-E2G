@@ -1,0 +1,14 @@
+features	category	ENCODE-E2G	ENCODE-E2G without distance	ENCODE-E2G without contact	ENCODE-E2G without distance and contact	ENCODE-E2G without ABC	ENCODE-E2G without nearby enhancers	ENCODE-E2G without enhancer activity	ENCODE-E2G without promoter activity	ENCODE-E2G without promoter class
+numTSSEnhGene	generic	1	0	1	0	1	1	1	1	1
+distanceToTSS	generic	1	0	1	0	1	1	1	1	1
+normalizedDNase_enh	enhancer activity	1	1	1	1	1	1	0	1	1
+normalizedDNase_prom	promoter activity	1	1	1	1	1	1	1	0	1
+numNearbyEnhancers	generic	1	1	1	1	1	0	1	1	1
+sumNearbyEnhancers	generic	1	1	1	1	1	0	1	1	1
+ubiquitousExpressedGene	promoter class	1	1	1	1	1	1	1	1	0
+numCandidateEnhGene	generic	1	1	1	1	1	0	1	1	1
+3DContactAvgHicTrack2	Hi-C	1	1	0	0	1	1	1	1	1
+3DContactAvgHicTrack2_squared	Hi-C	1	1	0	0	1	1	1	1	1
+activityEnhDNaseOnlyAvgHicTrack2_squared	enhancer activity	1	1	1	1	1	1	0	1	1
+activityPromDNaseOnlyAvgHicTrack2	promoter activity	1	1	1	1	1	1	1	0	1
+ABCScoreDNaseOnlyAvgHicTrack2	ABC	1	1	0	0	0	1	0	1	1
