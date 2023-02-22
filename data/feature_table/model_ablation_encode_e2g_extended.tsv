@@ -35,11 +35,11 @@ DNase_p_grad_max_L_8	gradients	1	0	1	1	1	1	0	0	0	0	1	1	0	0	1	1
 H3K4me3_p_grad_min_L_8	gradients	1	0	1	1	1	1	0	0	0	0	1	1	0	0	1	1
 H3K27ac_p_grad_min_L_8	gradients	1	0	1	1	1	1	0	0	0	0	1	1	0	0	1	1
 DNase_p_grad_min_L_8	gradients	1	0	1	1	1	1	0	0	0	0	1	1	0	0	1	1
-averageCorrWeighted	correlation	1	1	1	1	0	1	1	1	1	1	1	1	1	0	0	1
+averageCorrWeighted	correlation	1	1	1	1	0	1	1	1	1	1	1	1	1	1	0	1
 phastConMax	conservation	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0
 phyloPMax	conservation	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0
-P2PromoterClass	promoter class	1	1	1	1	1	1	1	1	1	1	1	1	1	0	0	1
-ubiquitousExpressedGene	promoter class	1	1	1	1	1	1	1	1	1	1	1	1	1	0	0	1
+P2PromoterClass	promoter class	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1
+ubiquitousExpressedGene	promoter class	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1
 HiCLoopOutsideNormalized	Hi-C	1	1	1	1	1	1	0	0	0	0	1	1	1	1	1	1
 HiCLoopCrossNormalized	Hi-C	1	1	1	1	1	1	0	0	0	0	1	1	1	1	1	1
 inTAD	Hi-C	1	1	1	1	1	1	0	0	0	0	1	1	1	1	1	1
